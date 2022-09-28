@@ -2,18 +2,6 @@ from abc import ABC, abstractmethod
 
 class RiskInterface:
 
-
-    def getName(self):
-        return self.name
-
-
-    def getCategory(self):
-        return self.category
-
-
-    def getLossBrutto(self):
-        return self.lossBrutto
-
     @abstractmethod
     def getLossNetto(self):
         pass
@@ -31,7 +19,7 @@ class RiskInterface:
         pass
 
     @abstractmethod
-    def setLossNMin(self, value):
+    def setLossMin(self, value):
         pass
 
     @abstractmethod

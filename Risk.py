@@ -48,7 +48,7 @@ class Risk:
         self.lossMid = value
         return
 
-    def setLossNMin(self, value):
+    def setLossMin(self, value):
         self.lossMin = value
         return
 

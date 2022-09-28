@@ -1,5 +1,5 @@
 from Risk import Risk
-from RiskPool import RiskPool
+from RiskCollection import RiskPool
 
 
 def main():
