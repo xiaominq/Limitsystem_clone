@@ -1,4 +1,4 @@
-from Risk import Risk
+from RiskPassive import Risk
 from RiskCollection import RiskPool
 
 

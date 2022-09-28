@@ -1,5 +1,5 @@
 from abc import ABC
-from RiskInterface import RiskInterface
+from Risk import RiskInterface
 
 
 class CapitalInvestmentRisk(RiskInterface, ABC):

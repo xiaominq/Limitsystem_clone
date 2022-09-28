@@ -1,7 +1,7 @@
 from abc import ABC
 
-import Risk
-from RiskInterface import RiskInterface
+import RiskPassive
+from Risk import RiskInterface
 
 
 class SubDevidedRisk(Risk, RiskInterface, ABC):

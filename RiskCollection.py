@@ -1,4 +1,4 @@
-import Risk
+import RiskPassive
 
 class RiskCollection:
 
