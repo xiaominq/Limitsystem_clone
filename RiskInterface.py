@@ -2,15 +2,15 @@ from abc import ABC, abstractmethod
 
 class RiskInterface:
 
-    @abstractmethod
+
     def getName(self):
         return self.name
 
-    @abstractmethod
+
     def getCategory(self):
         return self.category
 
-    @abstractmethod
+
     def getLossBrutto(self):
         return self.lossBrutto
 
